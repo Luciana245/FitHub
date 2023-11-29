@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1e7b0 ;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2accbb;
+}
+
+#carousel strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+strong {
+    font-weight: 700;
+    color: #2accbb;
+}
+
+header .logo {
+    width: 225px;
+    height: 166px;
+    animation: 2s logo ease-in-out;
+
+}
+
+@media screen and (max-width: 992px) {
+    header .logo {
+        width: 225px;
+        height: 166px;
+        animation: 2s logo ease-in-out;
+        padding-bottom: 35px;
+    }
+    
+    .inverse {
+            display: flex;
+            flex-direction: column-reverse;
+    }
+
+    .mx-4{
+        margin-right: 0!important;
+        margin-left: 0!important;	
+    }
+
+    .navbar>.container-fluid{
+        background-color:#f1e7b0;	
+    }   
+
+}
+
+@keyframes logo {
+  
+    0% {
+      opacity: 0;
+      transform: perspective(200px) rotateX(90deg);
+    }
+    
+    40% {
+      opacity: 0.5;
+      transform: perspective(200px) rotateX(-20deg);
+    }
+    
+    70% {
+      opacity: 1;
+      transform: perspective(200px) rotateX(10deg);
+    }
+}
+
+nav {
+    color: #b5f3f0;
+    width: auto;
+    height: 155px;
+} 
+
+nav li {
+    font-size: 20px;
+}
+
+.navbar>.container-fluid {
+    z-index:1;	    
+}
+
+#texto p {
+    text-indent: 5px;
+    font-size: 16px;
+}
+
+#pastillas p {
+    text-indent: 5px;
+    font-size: 12px;
+}
+
+#carousel p {
+    font-size: 24px;
+    color: #d3f8fe;
+}
+
+#carousel h3 {
+    font-size: 24px;
+    color: #d3f8fe;
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #b5f3f0;
+}
+
+section a {
+    background-color: #fbca1b;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card button {
+    background-color: rgb(241, 254, 221);
+    border: none;
+    color: #fbca1b;
+}
+
+.card button:hover {
+    background-color: #2accbb;
+    border: none;
+    color: black;
+}
+
+#video {
+    background-color: #fbca1b;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.imagen1 {
+    background-color: rgb(249, 255, 241);
+
+}
+
+.imagen1 p {
+    color: black;
+
+}
+
+.imagen1:hover {
+    background-color: #e1e1e1;
+
+}
+
+#formulario h2 {
+    color: #b5f3f0;
+}
+
+#formulario h3 {
+    color:rgb(153, 255, 0);
+}
+
+#formulario .enviar {
+    background-color:#b5f3f0;
+    color: #2b6e7c;
+    border: none;
+    font-weight: 500;
+}
+
+#formulario .enviar:hover {
+    background-color: #2accbb;
+    color: #ffffff;
+    border: none;
+}
+
+#formulario .borrar {
+    background-color:rgb(236, 147, 147);
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+}
+
+#formulario .borrar:hover {
+    background-color: red;
+    color: #ffffff;
+    border: none;
+}
+
+footer {
+    background-color: #f1e7b0;
+}
+
+footer .mindful {
+    width: 250px;
+    height: auto;
+}
+
+footer p {
+    color: #2accbb;
+}
+
+.redes li {
+    width: 30px;
+    height: 30px;
+}
+
+.redes img:hover {
+    background-color: rgb(153, 255, 0);
+    border-radius: 100%;
+}
+
+.datos li {
+    color: black;
+    list-style: none;
+    font-size: 16px;
+}
+
+.creditos {
+    font-size: 12px;
+}
+
+
